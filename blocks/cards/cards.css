@@ -1,0 +1,17 @@
+@import url('__title/cards__title.css');
+@import url('__image/cards__image.css');
+@import url('__item/cards__item.css');
+@import url('__description/cards__description.css');
+
+
+.cards {
+  min-width: 920px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid; /*таблица*/
+  grid-column-gap: 100px; /*промежуток между колонками*/
+  grid-row-gap: 0; /*промежуток между строками и столбцами*/
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); /*количество столбцов и ширина*/
+
+}

@@ -1,0 +1,25 @@
+@import url('__columns/footer__columns.css');
+@import url('__column/_content/footer__column_content_copyright.css');
+@import url('__column/_content/footer__column_content_info.css');
+@import url('__column/_content/footer__column_content_social.css');
+@import url('__author/footer__author.css');
+@import url('__column_heading/footer__column_heading.css');
+@import url('__column_links/footer__column_links.css');
+@import url('__link/footer__link.css');
+@import url('__social_icon/footer__social_icon.css');
+
+
+
+
+.footer{
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color: #1f1f1f;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+
+}
